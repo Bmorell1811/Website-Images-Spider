@@ -85,5 +85,6 @@ class ImageSpider:
             os.chdir(self.home)
 
 
-spider = ImageSpider()
-spider.download_images()
+if __name__ == "__main__":
+    spider = ImageSpider()
+    spider.download_images()
