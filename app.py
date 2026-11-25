@@ -35,7 +35,7 @@ class ImageSpider:
 
     @staticmethod
     def extract_site_name(url):
-        sitename = str(url).split('/')[2]
+        sitename = str(url).split('/')[0]
         return sitename
     
     def saving_images(self,url):
